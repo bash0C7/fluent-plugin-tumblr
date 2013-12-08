@@ -1,7 +1,7 @@
 require 'tumblr_client'
 require 'erb'
 require 'tempfile'
-require 'Base64'
+require 'base64'
 
 module Fluent
   class Fluent::TumblrOutput < Fluent::Output
