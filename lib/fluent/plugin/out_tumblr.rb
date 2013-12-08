@@ -58,7 +58,7 @@ module Fluent
         begin
           tempfile.binmode
 
-          tempfile.write(@base64encoded ? Base64.decode64(media) : record[@image_key])
+          tempfile.write(@base64encoded ? Base64.decode64(record[@image_key]) : record[@image_key])
           tempfile.close
 
           @tumblr_client.photo(@tumblr_url,
