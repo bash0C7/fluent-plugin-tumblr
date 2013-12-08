@@ -21,7 +21,7 @@ module Fluent
     config_param :caption_template, :string
 
     config_param :link_key,   :string
-    config_param :data_raw_key,   :string
+    config_param :image_key,   :string
     config_param :post_type, :string
     config_param :base64encoded, :bool
 
