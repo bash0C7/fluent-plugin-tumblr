@@ -25,6 +25,8 @@ module Fluent
     config_param :post_type, :string
     config_param :base64encoded, :bool
 
+    attr_accessor :tumblr_client
+    
     def configure(conf)
       super
 
