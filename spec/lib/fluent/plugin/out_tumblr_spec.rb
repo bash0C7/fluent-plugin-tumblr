@@ -41,6 +41,7 @@ describe do
       image_key raw_media
       base64encoded false
       post_type picture
+      post_interval 0
         ]
       }
 
