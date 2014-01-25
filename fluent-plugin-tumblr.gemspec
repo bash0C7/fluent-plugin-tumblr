@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-tumblr"
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ["bash0C7"]
   spec.email         = ["koshiba+github@4038nullpointer.com"]
-  spec.description   = "Fluentd output plugin to post to tumblr"
-  spec.summary       = "Fluentd output plugin to post to tumblr"
+  spec.description   = "Fluentd output plugin to post entry to your tumblr"
+  spec.summary       = "Fluentd output plugin to post entry to your tumblr"
   spec.homepage      = "https://github.com/bash0C7/fluent-plugin-tumblr"
   spec.license       = "Ruby's"
 
